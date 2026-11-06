@@ -4,7 +4,16 @@
 #Week 09
 #Temprature
 #11/04/26
-def 
-for fahrenheit in range (0,21):
-    celsius = (5 / 9) * (fahrenheit - 32) # different functions
-    print( fahrenheit, "           ", round(celsius,2))
+def celsius(fahrenheit): 
+    return (5 / 9) * (fahrenheit - 32)
+
+def main():
+    print('fahrenheit','celsius')
+    print ("the fahrenheight to celsius table")
+
+    for f in range(21):
+        c = celsius(f)
+
+        print(f,c)
+
+main()

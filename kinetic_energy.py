@@ -16,7 +16,7 @@ def main():
 
     result = kineticEnergy(mass,velocity)
 
-    print("Kinetic Energy", result)
+    print("Kinetic Energy", result, "ke")
 
 
 main()
